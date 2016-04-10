@@ -1,0 +1,18 @@
+{
+    "contents" : "X <- fread('finalset_cleaned_X.csv')\nY <- fread('finalset_cleaned_Y.csv')",
+    "created" : 1449807437678.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "127576083",
+    "id" : "14258ECE",
+    "lastKnownWriteTime" : 7011605692497750387,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

@@ -3,32 +3,32 @@
 
 Xinyi Liu
 
-## Index
+## Data Cleaning folder
+_R Script for data preparation, along with the original dataset file._
 
-### Data Cleaning folder - R Script for data preparation, along with the original dataset file.
-#### DataCleaning.R
+###### DataCleaning.R
 An R script for data preparation. By executing this script, it will perform the following tasks:
 
-	1. Read data set from "adult.data.txt" file;
+1. Read data set from "adult.data.txt" file;
 	
-	2. Transform all columns into integers;
+2. Transform all columns into integers;
 	
-	3. Remove the "education" feature;
+3. Remove the "education" feature;
 	
-	4. Randomly split dataset into training and testing by 75 : 25 ratio;
+4. Randomly split dataset into training and testing by 75 : 25 ratio;
 	
-	5. Write training set and testing set into "finalset_cleaned_X.csv" and "finalset_cleaned_Y.csv" perspectively.
+5. Write training set and testing set into "finalset_cleaned_X.csv" and "finalset_cleaned_Y.csv" perspectively.
 	
 
 
-#### SVM folder - Matlab script used for Support Vector Machine Analysis.
-
+### SVM folder - Matlab script used for Support Vector Machine Analysis.
+###### SVMscript.m
+Matlab script that illustrates the performance of SVM model
 
 
 ### LR folder - Matlab functions and script used for Logistic Regression Analysis.
 
-#### learnLogisticWeights
-
+###### learnLogisticWeights.m
 Weight learning function that implemented L1 and L2 regualrizations.
 
 **Input Variables:**

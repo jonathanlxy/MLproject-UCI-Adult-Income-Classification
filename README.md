@@ -21,15 +21,16 @@ An R script for data preparation. By executing this script, it will perform the 
 	
 
 
-### SVM folder - Matlab script used for Support Vector Machine Analysis.
+## SVM folder - Matlab script used for Support Vector Machine Analysis.
+
 ###### SVMscript.m
-Matlab script that illustrates the performance of SVM model
+_Matlab script that illustrates the performance of SVM model_
 
 
-### LR folder - Matlab functions and script used for Logistic Regression Analysis.
+## LR folder - Matlab functions and script used for Logistic Regression Analysis.
 
 ###### learnLogisticWeights.m
-Weight learning function that implemented L1 and L2 regualrizations.
+_Weight learning function that implemented L1 and L2 regualrizations._
 
 **Input Variables:**
 - w0
@@ -52,11 +53,10 @@ Weight learning function that implemented L1 and L2 regualrizations.
 	- An updated weight vector.
 
 
-#### sigmoidLikehood
+###### sigmoidLikehood.m
+_Takes in features of a single point and a label, return the sigmoid likelihood that the point associated with given label_
 
-Takes in features of a single point and a label, return the sigmoid likelihood that the point associated with given label
 
-
-#### logisticClassify
+###### logisticClassify.m
 
 Take the features of a point, returns the more possible label of this point.

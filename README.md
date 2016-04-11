@@ -59,4 +59,4 @@ _Takes in features of a single point and a label, return the sigmoid likelihood 
 
 ###### logisticClassify.m
 
-Take the features of a point, returns the more possible label of this point.
+_Take the features of a point, returns the more possible label of this point._
